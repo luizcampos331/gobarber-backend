@@ -14,7 +14,7 @@ export default {
 
   defaults: {
     from: {
-      email: 'contato@luizcampos.com.br',
+      email: 'contact@luizcampos.com.br',
       name: 'Equipe GoBarber',
     },
   },
