@@ -24,7 +24,7 @@ class Appointment {
   provider_id: string;
 
   // Muitos para um
-  @ManyToOne(() => User)
+  @ManyToOne(() => User, user => user.id)
   @JoinColumn({ name: 'provider_id' })
   provider: User;
 
@@ -33,7 +33,7 @@ class Appointment {
   user_id: string;
 
   // Muitos para um
-  @ManyToOne(() => User)
+  @ManyToOne(() => User, user => user.id)
   @JoinColumn({ name: 'user_id' })
   user: User;
 
