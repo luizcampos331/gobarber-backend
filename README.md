@@ -16,7 +16,7 @@
 ## :bookmark: Sobre
 API para servir os dados para aplicação web e aplicativo mobile de agendamento de horários em barbearias
 
-Veja a aplicação em funcionamento pelo endereço gobarber.luizcampos.com.br
+Veja a aplicação em funcionamento pelo endereço <a href="https://gobarber.luizcampos.com.br">gobarber.luizcampos.com.br</a>
 
 ## :computer: Tecnologias Utilizadas
 - NodeJS
